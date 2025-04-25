@@ -36,27 +36,27 @@ Explore these Bootstrap 4 creations via the <a href="./index.html">Main Gallery<
   </tr>
   <tr>
     <td><strong>Landing Page</strong></td>
-    <td><a href="./Bootstrap%204%20%28Landing%20Page%29/">Explore</a></td>
+    <td><a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/Bootstrap%204%20%28Landing%20Page%29">Explore</a></td>
     <td>A radiant landing page, coded with Bootstrap 4 for a mesmerizing, responsive design.</td>
   </tr>
   <tr>
     <td><strong>Blog</strong></td>
-    <td><a href="./Bootstrap%204%20blog/">Explore</a></td>
+    <td><a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/Bootstrap%204%20blog/">Explore</a></td>
     <td>An elegant blog template, crafted with Bootstrap 4’s sleek and modern aesthetics.</td>
   </tr>
   <tr>
     <td><strong>Small Business</strong></td>
-    <td><a href="./create%20a%20small%20business%20website/">Explore</a></td>
+    <td><a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/create%20a%20small%20business%20website/">Explore</a></td>
     <td>A professional business site, coded in Bootstrap 4 for a polished, entrepreneurial vibe.</td>
   </tr>
   <tr>
     <td><strong>Online Forum</strong></td>
-    <td><a href="./create%20an%20online%20forum/">Explore</a></td>
+    <td><a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/create%20an%20online%20forum/">Explore</a></td>
     <td>A vibrant discussion platform, built with Bootstrap 4 for engaging, intuitive interactions.</td>
   </tr>
   <tr>
     <td><strong>Knowledge Base</strong></td>
-    <td><a href="./knowledge%20base%20with%20bootstrap%204/">Explore</a></td>
+    <td><a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/knowledge%20base%20with%20bootstrap%204/">Explore</a></td>
     <td>A streamlined help center, coded with Bootstrap 4 for organized, user-friendly support.</td>
   </tr>
 </table>
@@ -72,7 +72,7 @@ Explore these Bootstrap 4 creations via the <a href="./index.html">Main Gallery<
     <strong>Note:</strong> Project links are placeholders. Update with actual paths or live URLs as needed.
   </p>
   <p>
-    <a href="./index.html">
+    <a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages">
       <img src="https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Enter Gallery">
     </a>
   </p>
