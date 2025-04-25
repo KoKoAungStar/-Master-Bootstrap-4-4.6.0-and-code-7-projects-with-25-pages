@@ -26,7 +26,7 @@
 
 ## 🌟 Project Showcase
 
-Explore these Bootstrap 4 creations via the <a href="./index.html">Main Gallery</a>:
+Explore these Bootstrap 4 creations via the <a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages">Main Gallery</a>:
 
 <table align="center">
   <tr>
