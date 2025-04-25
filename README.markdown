@@ -17,7 +17,7 @@
   </p>
   <p>
     <a href="./index.html">
-      <img src="[https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages](https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white)" alt="Enter Gallery">
+      <img src="https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Enter Gallery">
     </a>
   </p>
 </div>
