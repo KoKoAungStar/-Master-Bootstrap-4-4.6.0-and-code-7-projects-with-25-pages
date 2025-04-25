@@ -16,7 +16,7 @@
     Discover the <strong>Bootstrap Projects Gallery</strong>, a dazzling showcase of five front-end projects, each meticulously coded with HTML, CSS, and Bootstrap 4. Featuring glassmorphism cards, 3D animations, and a radiant particle background, this gallery is a celebration of design excellence.
   </p>
   <p>
-    <a href="./index.html">
+    <a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages">
       <img src="https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Enter Gallery">
     </a>
   </p>
