@@ -17,7 +17,7 @@
   </p>
   <p>
     <a href="./index.html">
-      <img src="https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Enter Gallery">
+      <img src="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages" alt="Enter Gallery">
     </a>
   </p>
 </div>
@@ -66,14 +66,14 @@ Explore these Bootstrap 4 creations via the <a href="./index.html">Main Gallery<
 <div align="center">
   <h2>🚀 Dive In</h2>
   <p>
-    Launch the <a href="./index.html">Main Gallery (index.html)</a> in a browser (e.g., Chrome, Firefox) to explore this coded artistry. Hover over cards for 3D effects and click "Explore" to visit projects in new tabs.
+    Launch the <a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages/">Main Gallery (index.html)</a> in a browser (e.g., Chrome, Firefox) to explore this coded artistry. Hover over cards for 3D effects and click "Explore" to visit projects in new tabs.
   </p>
   <p>
     <strong>Note:</strong> Project links are placeholders. Update with actual paths or live URLs as needed.
   </p>
   <p>
     <a href="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages">
-      <img src="https://img.shields.io/badge/Enter%20Gallery-Explore%20Now-6e8efb?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Enter Gallery">
+      <img src="https://kokoaungstar.github.io/-Master-Bootstrap-4-4.6.0-and-code-7-projects-with-25-pages" alt="Enter Gallery">
     </a>
   </p>
 </div>
