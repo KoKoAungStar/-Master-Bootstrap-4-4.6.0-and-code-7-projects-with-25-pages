@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Bootstrap Project Gallery</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+      min-height: 100vh;
+      padding-top: 80px;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+    }
+
+    h1 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 3rem;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: fadeInDown 1s ease-out;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      animation: cardReveal 0.8s ease-out forwards;
+      opacity: 0;
+      transform: translateY(50px);
+      height: 500px; /* Fixed height for all cards */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-img-top {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      padding: 1.5rem;
+      text-align: center;
+      flex: 1; /* Allow card-body to grow and fill space */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Distribute content evenly */
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      color: #666;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      color: #444;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      flex-grow: 1; /* Allow description to take available space */
+    }
+
+    .btn-explore {
+      background: linear-gradient(45deg, #6e8efb, #a777e3);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 500;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-explore:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes cardReveal {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Staggered animation for cards */
+    .card:nth-child(1) { animation-delay: 0.2s; }
+    .card:nth-child(2) { animation-delay: 0.4s; }
+    .card:nth-child(3) { animation-delay: 0.6s; }
+    .card:nth-child(4) { animation-delay: 0.8s; }
+    .card:nth-child(5) { animation-delay: 1s; }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .card-img-top { height: 150px; }
+      .card { height: 450px; } /* Slightly shorter for mobile */
+      .card-description { font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-5">🌟 My Bootstrap Projects Gallery 🌟</h1>
+    <div class="row">
+      <!-- Project 1: Landing Page -->
+      <div class="col-md-4 mb-4">
+        <a href="Bootstrap%204%20%28Landing%20Page%29/" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Landing Page">
+            <div class="card-body">
+              <h5 class="card-title">Landing Page</h5>
+              <p class="card-text">Bootstrap 4 Landing Page</p>
+              <p class="card-description">A stunning, responsive landing page crafted exclusively with Bootstrap 4, designed to captivate visitors with its sleek layout and seamless user experience.</p>
+              <button class="btn btn-explore">Explore</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 2: Blog -->
+      <div class="col-md-4 mb-4">
+        <a href="Bootstrap%204%20blog/" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Blog">
+            <div class="card-body">
+              <h5 class="card-title">Blog</h5>
+              <p class="card-text">Bootstrap 4 Blog Template</p>
+              <p class="card-description">An elegant blog template built purely with Bootstrap 4, offering a clean and modern design to showcase content with style and responsiveness.</p>
+              <button class="btn btn-explore">Explore</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 3: Small Business -->
+      <div class="col-md-4 mb-4">
+        <a href="create%20a%20small%20business%20website/" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Small Business">
+            <div class="card-body">
+              <h5 class="card-title">Small Business</h5>
+              <p class="card-text">Website for small business</p>
+              <p class="card-description">A professional small business website created using only Bootstrap 4, delivering a polished and accessible online presence for entrepreneurs.</p>
+              <button class="btn btn-explore">Explore</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 4: Online Forum -->
+      <div class="col-md-4 mb-4">
+        <a href="create%20an%20online%20forum/" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Online Forum">
+            <div class="card-body">
+              <h5 class="card-title">Online Forum</h5>
+              <p class="card-text">Bootstrap 4 discussion platform</p>
+              <p class="card-description">A dynamic discussion platform designed with Bootstrap 4 alone, fostering engaging conversations with its intuitive and responsive interface.</p>
+              <button class="btn btn-explore">Explore</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 5: Knowledge Base -->
+      <div class="col-md-4 mb-4">
+        <a href="knowledge%20base%20with%20bootstrap%204/" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Knowledge Base">
+            <div class="card-body">
+              <h5 class="card-title">Knowledge Base</h5>
+              <p class="card-text">Help center with Bootstrap 4</p>
+              <p class="card-description">A comprehensive help center built solely with Bootstrap 4, providing an organized and user-friendly knowledge base for seamless support.</p>
+              <button class="btn btn-explore">Explore</button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
